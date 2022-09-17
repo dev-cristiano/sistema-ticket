@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+
+    --background-color: #121212;
+    --secondary-color: #171717;
+    --third-color: #5C0053;
+    --finish-ficket: #EFD345;
+    --waiting-for-service: #FF5B00;
+    --cancel-service: #EC2F2F;
+
+    /* TICKET */
+    --new: #1C6DD0;
+    --back: #5C0053;
+    --cancel: #990000;
+
+    
+    /* BUTTONS LOGINS AND REGISTER */
+    --btn-lr-radius: 42px;
+    --btn-lr-width: 100%;
+    --btn-lr-heigth: 40px;
+    --btn-lr-bg-color: #5C0053;
+    --btn-lr-bg-color-hover: #5c0053de;
+    --btn-lr-color: #fff;
+
+
+    /* BUTTONS GRID AND FORM*/
+    --btn-width: 124px;
+    --btn-heigth: 35px;
+
+    /* CONTAINERS AND HORIZONTAL LINE*/
+    --container80: 80%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.formulario img{
+    margin-top: 100px;
+    position: relative;
+}
+form{
+    background-color: var(--secondary-color);
+    height: 479px;
+    width: 470px;
+    border-radius: 10px;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    color: white;
+}
+form p i {
+    font-size: 40px;
+}
+.illustration-login {
+    position: absolute;
+    top: 8%;
+}
+form .tsl {
+    text-align: center;
+    font-weight: 300;
+}
+
+form .form-label {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    border-color: var(--btn-lr-color);
+    width: 100%;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    color: white;
+    box-shadow: none;
+}
+input[type=checkbox]:focus{
+    padding: 10px;
+}
+.checkbox-text{
+    font-weight: 100;
+    font-size: 14px;
+}
+#login {
+    width: 100%;
+    height: var(--btn-lr-heigth);
+    border-radius: var(--btn-lr-radius);
+    border: none;
+    background-color: var(--btn-lr-bg-color);
+    color: white;
+    font-weight: 200;
+}
+#login:hover {
+    width: 100%;
+    height: var(--btn-lr-heigth);
+    border-radius: var(--btn-lr-radius);
+    border: none;
+    background-color: var(--btn-lr-bg-color-hover);
+    color: white;
+    font-weight: 200;
+}
+#btn-register {
+    width: 100%;
+    background-color:transparent;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    border: 1px solid;
+    font-weight: 100;
+    height: var(--btn-lr-heigth);
+}
+#btn-register:hover {
+    width: 100%;
+    background-color: white;
+    border-radius: var(--btn-lr-radius);
+    border-color: white;
+    color: var(--background-color);
+    border: 1px solid;
+    font-weight: 200;
+    height: var(--btn-lr-heigth);
+}
+#btn-register:hover a{
+    color: #121212;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 991px) {
+    .illustration-login {
+        width: 350px;
+        height: 350px;
+        margin-top: 15%;
+        margin-right: 5%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    form {
+        margin-right: 5%;
+    }
+}
+@media only screen and (max-width: 768px ) {
+    .illustration-login {
+       display: none;
+    }
+    form {
+        margin-top: 10%;
+        margin-left: 4%;
+        position: inherit;
+        height: 430px;
+        width: 270px;
+    }
+
+    #login:hover {
+        width: 100%;
+        height: var(--btn-lr-heigth);
+        border-radius: var(--btn-lr-radius);
+        border: none;
+        background-color: var(--btn-lr-bg-color-hover);
+        font-weight: 200;
+    }
+    #btn-register {
+        width: 100%;
+        background-color:transparent;
+        border-radius: 10px;
+        border-color: white;
+        color: white;
+        border: 1px solid;
+        font-weight: 100;
+        height: var(--btn-lr-heigth);
+    }
+    
+}

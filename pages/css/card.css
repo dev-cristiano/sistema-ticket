@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --background-color: #121212;
+    --secondary-color: #171717;
+}
+
+.card {
+    background-color: #171717;
+    color: white;
+    border: 1px solid var(--secondary-color);
+}
+.card .col-3{
+    background-color: red;
+}

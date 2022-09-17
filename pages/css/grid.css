@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --background-color: #121212;
+    --secondary-color: #171717;
+    --third-color: #5C0053;
+    --finish-ficket: #EFD345;
+    --waiting-for-service: #FF5B00;
+    --cancel-service: #EC2F2F;
+}
+form .div-form {
+    border-radius: 5px;
+    border: 0.3px solid;
+    border-color: var(--secondary-color);
+    padding: 10px;
+    color: white;
+}
+label.form-label {
+    font-weight: 200;
+}
+input.form-control.form-control-sm {
+    width: 450px;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+    border-color:  #2424248c;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+input.form-control.form-control-sm:focus {
+    box-shadow: none;
+}

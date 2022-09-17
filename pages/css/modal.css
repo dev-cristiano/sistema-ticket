@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+
+    --background-color: #121212;
+    --secondary-color: #171717;
+    --third-color: #5C0053;
+    --finish-ficket: #EFD345;
+    --waiting-for-service: #FF5B00;
+    --cancel-service: #EC2F2F;
+
+    /* TICKET */
+    --new: #1C6DD0;
+    --back: #5C0053;
+    --cancel: #990000;
+
+    
+    /* BUTTONS LOGINS AND REGISTER */
+    --btn-lr-radius: 42px;
+    --btn-lr-width: 100%;
+    --btn-lr-heigth: 40px;
+    --btn-lr-bg-color: #5C0053;
+    --btn-lr-bg-color-hover: #5c0053de;
+    --btn-lr-color: #fff;
+
+
+    /* BUTTONS GRID AND FORM*/
+    --btn-width: 124px;
+    --btn-heigth: 35px;
+
+    /* CONTAINERS AND HORIZONTAL LINE*/
+    --container80: 80%;
+}
+
+.modal-content{
+    background-color: var(--background-color);
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+button.btn-close {
+    background-color: white;
+}
+
+form label {
+    font-weight: 100;
+    font-size: 14px;
+}
+.btn-salvar {
+    padding: 7px;
+    background-color: #82954B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}
+.btn-sair {
+    padding: 7px;
+    background-color: var(--cancel);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+}

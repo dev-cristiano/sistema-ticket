@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+
+    --background-color: #121212;
+    --secondary-color: #171717;
+    --third-color: #5C0053;
+    --finish-ficket: #EFD345;
+    --waiting-for-service: #FF5B00;
+    --cancel-service: #EC2F2F;
+
+    /* TICKET */
+    --new: #1C6DD0;
+    --back: #5C0053;
+    --cancel: #990000;
+
+    
+    /* BUTTONS LOGINS AND REGISTER */
+    --btn-lr-radius: 42px;
+    --btn-lr-width: 100%;
+    --btn-lr-heigth: 40px;
+    --btn-lr-bg-color: #5C0053;
+    --btn-lr-bg-color-hover: #5c0053de;
+    --btn-lr-color: #fff;
+
+
+    /* BUTTONS GRID AND FORM*/
+    --btn-width: 124px;
+    --btn-heigth: 35px;
+
+    /* CONTAINERS AND HORIZONTAL LINE*/
+    --container80: 80%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+}
+.div-center{
+    width: 70%;
+    margin: 0 auto;
+}
+p{
+    color: white;
+    font-weight: 200;
+}
+/* Navbar */
+nav.navbar {
+    background: var(--secondary-color);
+    /* width: 70%; */
+    height: 60px;
+    /* margin: 0 auto; */
+    border-radius: 5px;
+}
+nav.navbar a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+}
+nav.navbar a:hover {
+    text-decoration: none;
+    color: rgb(214, 209, 209);
+    font-weight: 300;
+}
+hr {
+    width: 70%;
+    margin: 0 auto;
+}
+.div-center p {
+    font-size: 14px;
+}
+.div-center i {
+    font-size: 16px;
+}
+a#navbarDarkDropdownMenuLink:focus {
+    color: white;
+}
+a.dropdown-item:focus-visible {
+    color: white;
+    background-color: var(--background-color);
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+
+    --btn-incluir: #82954B;
+    --btn-novo: #1C6DD0;
+    --btn-cancelar: #990000;
+    --btn-voltar: #5C0053;
+    
+    /* BUTTONS LOGINS AND REGISTER */
+    --btn-lr-radius: 42px;
+    --btn-lr-width: 100%;
+    --btn-lr-heigth: 40px;
+    --btn-lr-bg-color: #5C0053;
+    --btn-lr-bg-color-hover: #5c0053de;
+    --btn-lr-color: #fff;
+
+    --background-color: #121212;
+    --secondary-color: #171717;
+
+
+    /* BUTTONS GRID AND FORM*/
+    --btn-width: 124px;
+    --btn-heigth: 35px;
+
+    /* CONTAINERS AND HORIZONTAL LINE*/
+    --container80: 80%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+a.btn-novo {
+    background-color: var(--btn-novo);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    font-weight: 400;
+    padding: 7px;
+}
+.btn-novo:hover {
+    background-color: rgb(9, 86, 180);
+}
+
+.table {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 10px;
+    font-weight: 200;
+    border-color: white;
+}
+.table-title {
+    font-weight: 200;
+}
+.table-sub {
+    font-weight: 200;
+    color: white;
+    font-size: 12px;
+}
+
+/* Formulário */
+a.btn-voltar {
+    background-color: var(--btn-voltar);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    font-weight: 400;
+    padding: 7px;
+}
+.btn-voltar:hover {
+    background-color: #46033f;
+}
+
+a.btn-incluir {
+    background-color: var(--btn-incluir);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 28px;
+    font-weight: 400;
+    padding: 7px;
+}
+.btn-incluir:hover {
+    background-color: #8a8b2c;
+}
